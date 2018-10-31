@@ -16,7 +16,7 @@ public class MainActivity extends LoggingActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button opaqueActivityButton = (Button) findViewById(R.id.opaqueActivityButton);
+        Button opaqueActivityButton = findViewById(R.id.opaqueActivityButton);
         opaqueActivityButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -25,7 +25,7 @@ public class MainActivity extends LoggingActivity {
             }
         });
 
-        Button transparentActivityButton = (Button) findViewById(R.id.transparentActivityButton);
+        Button transparentActivityButton = findViewById(R.id.transparentActivityButton);
         transparentActivityButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

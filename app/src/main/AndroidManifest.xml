@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".LoggingActivity" />
         <activity android:name=".OpaqueActivity" />
-        <activity android:name=".TransparentActivity"></activity>
+        <activity android:name=".TransparentActivity"
+            android:theme="@style/Theme.Transparent"/>
     </application>
 
 </manifest>
